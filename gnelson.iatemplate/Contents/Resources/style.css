@@ -1,0 +1,250 @@
+:root {
+  --bg-primary-hex: #ffffff;
+  --bg-primary-rgba: rgba(255, 255, 255, 0.8);
+
+  --bg-secondary: #f5f7fa;
+
+  --text-primary: #1a2028;
+  --text-secondary: #517095;
+
+  --font-xs: 14px;
+  --font-s: 16px;
+  --font-m: 18px;
+  --font-l: 26px;
+
+  --lh-xs: 20px;
+  --lh-s: 24px;
+  --lh-m: 24px;
+  --lh-l: 30px;
+
+  @media only screen and (min-width: 722px) {
+    --font-xs: 16px;
+    --font-s: 18px;
+    --font-m: 20px;
+    --font-l: 28px;
+
+    --lh-xs: 24px;
+    --lh-s: 24px;
+    --lh-m: 28px;
+    --lh-l: 36px;
+  }
+}
+.night-mode:root {
+  --bg-primary-hex: #212831;
+  --bg-primary-rgba: rgba(33, 40, 49, 0.8);
+
+  --bg-secondary: #1a2028;
+
+  --text-primary: #f5f7fa;
+  --text-secondary: #7a91ae;
+}
+
+body {
+  background-color: var(--bg-primary-hex);
+  font-family: "Sohne", -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--text-primary);
+  overflow-y: scroll;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+html,
+body {
+  max-width: 624px;
+  margin: 0 auto;
+  padding: 0 5%;
+  height: 100%;
+}
+
+html {
+  font-size: 16px;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  line-height: 1.4;
+}
+
+footer {
+  margin-bottom: 2rem;
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  color: white;
+  background: var(--color-primary);
+}
+
+@media only screen and (min-width: 722px) {
+  html {
+    font-size: 32px;
+  }
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url(./soehne-web-buch.woff2) format("woff2");
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url(./soehne-web-buch-kursiv.woff2) format("woff2");
+
+  font-weight: normal;
+  font-style: italic;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "Sohne";
+  src: url(./soehne-web-dreiviertelfett.woff2) format("woff2");
+
+  font-weight: bold;
+  font-style: normal;
+  font-display: optional;
+}
+
+h1 {
+  font-size: var(--font-l);
+  line-height: var(--lh-l);
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: var(--font-m);
+  line-height: var(--lh-m);
+  font-weight: bold;
+  margin: 1.25rem 0 0.5rem 0;
+}
+
+h3 {
+  font-size: var(--font-s);
+  line-height: var(--lh-s);
+  font-style: italic;
+  font-weight: normal;
+  margin: 1.25rem 0 0.5rem 0;
+  color: var(--text-secondary);
+}
+
+h4 {
+  font-size: var(--font-xs);
+  line-height: var(--lh-xs);
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+p {
+  font-size: var(--font-s);
+  line-height: var(--lh-s);
+}
+
+a {
+  font-size: var(--font-s);
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: normal;
+}
+a:hover {
+  text-decoration: underline;
+  color: var(--color-primary);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary);
+  cursor: pointer;
+}
+
+li {
+  font-size: var(--font-s);
+  line-height: var(--lh-s);
+  margin: 0.5rem 0;
+}
+
+li::marker {
+  font-size: var(--font-s);
+  color: var(--text-secondary);
+}
+
+ul > li {
+  margin-left: 1.5rem;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+code {
+  font-family: ui-monospace, monospace;
+  font-size: var(--font-s);
+  line-height: var(--lh-s);
+  font-weight: 500;
+  color: var(--text-secondary);
+  background-color: var(--bg-secondary);
+  padding: 0.1rem 0.2rem;
+  border-radius: 4px;
+}
+
+@media only screen and (min-width: 722px) {
+  h1 {
+    font-size: var(--font-l);
+    line-height: var(--lh-l);
+    margin-bottom: 0.25rem;
+  }
+
+  h2 {
+    font-size: var(--font-m);
+    line-height: var(--lh-m);
+    font-weight: bold;
+    margin: 0.75rem 0 0.25rem 0;
+  }
+
+  h3 {
+    font-size: var(--font-s);
+    line-height: var(--lh-s);
+    font-style: italic;
+    font-weight: normal;
+    margin: 0.75rem 0 0.25rem 0;
+    color: var(--text-secondary);
+  }
+
+  h4 {
+    font-size: var(--font-xs);
+    line-height: var(--lh-xs);
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    color: var(--text-secondary);
+  }
+
+  p {
+    font-size: var(--font-s);
+    line-height: var(--lh-s);
+  }
+
+  li {
+    margin: 0.25rem 0;
+  }
+
+  ul > li {
+    margin-left: 0.75rem;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  scroll-behavior: smooth;
+}
