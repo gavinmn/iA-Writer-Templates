@@ -12,21 +12,11 @@
   --font-m: 18px;
   --font-l: 26px;
 
-  --lh-xs: 20px;
-  --lh-s: 24px;
-  --lh-m: 24px;
-  --lh-l: 30px;
-
   @media only screen and (min-width: 722px) {
     --font-xs: 16px;
     --font-s: 18px;
     --font-m: 20px;
     --font-l: 28px;
-
-    --lh-xs: 24px;
-    --lh-s: 24px;
-    --lh-m: 28px;
-    --lh-l: 36px;
   }
 }
 .night-mode:root {
@@ -59,7 +49,7 @@ html {
   background-color: var(--bg-primary-hex);
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  line-height: 1.4;
+  line-height: 1.46;
 }
 
 footer {
@@ -181,12 +171,10 @@ ul {
 
 code {
   font-family: ui-monospace, monospace;
-  font-size: var(--font-s);
-  line-height: var(--lh-s);
-  font-weight: 500;
+  font-size: var(--font-xs);
   color: var(--text-secondary);
   background-color: var(--bg-secondary);
-  padding: 0.1rem 0.2rem;
+  padding: 0.05rem 0.2rem 0.1rem 0.2rem;
   border-radius: 4px;
 }
 
