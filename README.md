@@ -1,6 +1,6 @@
-# gnelson.me iA Writer Template
+# nelson.co iA Writer Template
 
-A customized fork of [iA Writer Templates](https://github.com/iainc/iA-Writer-Templates) for previewing in the style of [gnelson.me](https://gnelson.me).
+A customized fork of [iA Writer Templates](https://github.com/iainc/iA-Writer-Templates) for previewing in the style of [nelson.co](https://nelson.co).
 
 # iA Writer Templates
 
