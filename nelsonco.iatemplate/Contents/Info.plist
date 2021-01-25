@@ -9,7 +9,7 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.example.template</string>
 	<key>CFBundleName</key>
-	<string>gnelson</string>
+	<string>nelson.co</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
@@ -27,10 +27,10 @@
 	<key>IATemplateHeaderHeight</key>
 	<integer>120</integer>
 	<key>IATemplateDescription</key>
-	<string>gnelson template.</string>
+	<string>nelson.co template.</string>
 	<key>IATemplateAuthor</key>
 	<string>Gavin Nelson</string>
 	<key>IATemplateAuthorURL</key>
-	<string>https://gnelson.me</string>
+	<string>https://nelson.co</string>
 </dict>
 </plist>
