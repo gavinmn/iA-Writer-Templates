@@ -2,15 +2,15 @@
   --bg-primary-hex: #ffffff;
   --bg-primary-rgba: rgba(255, 255, 255, 0.8);
 
-  --bg-secondary: #f5f7fa;
+  --bg-secondary: #f1f5f8;
 
-  --text-primary: #1a2028;
+  --text-primary: #232e3e;
   --text-secondary: #517095;
 
-  --font-xs: 14px;
-  --font-s: 16px;
-  --font-m: 18px;
-  --font-l: 26px;
+  --font-xs: 16px;
+  --font-s: 18px;
+  --font-m: 20px;
+  --font-l: 28px;
 
   @media only screen and (min-width: 722px) {
     --font-xs: 16px;
@@ -25,7 +25,7 @@
 
   --bg-secondary: #1a2028;
 
-  --text-primary: #f5f7fa;
+  --text-primary: #f1f5f8;
   --text-secondary: #7a91ae;
 }
 
@@ -102,20 +102,17 @@ img {
 
 h1 {
   font-size: var(--font-l);
-  line-height: var(--lh-l);
   margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: var(--font-m);
-  line-height: var(--lh-m);
   font-weight: bold;
   margin: 1.25rem 0 0.5rem 0;
 }
 
 h3 {
   font-size: var(--font-s);
-  line-height: var(--lh-s);
   font-style: italic;
   font-weight: normal;
   margin: 1.25rem 0 0.5rem 0;
@@ -124,7 +121,6 @@ h3 {
 
 h4 {
   font-size: var(--font-xs);
-  line-height: var(--lh-xs);
   font-weight: normal;
   font-style: italic;
   margin-bottom: 1rem;
@@ -133,7 +129,6 @@ h4 {
 
 p {
   font-size: var(--font-s);
-  line-height: var(--lh-s);
 }
 
 a {
@@ -161,7 +156,6 @@ a:hover {
 
 li {
   font-size: var(--font-s);
-  line-height: var(--lh-s);
   margin: 0.5rem 0;
 }
 
@@ -184,7 +178,7 @@ code {
   color: var(--text-secondary);
   background-color: var(--bg-secondary);
   padding: 0.05rem 0.2rem 0.1rem 0.2rem;
-  border-radius: 4px;
+  border-radius: 1px;
 }
 
 @media only screen and (min-width: 722px) {
